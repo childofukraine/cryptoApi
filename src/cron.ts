@@ -6,6 +6,6 @@ schedule('* * * * *',async () => {
   dontSleep()
 })
 
-schedule("*/1 * * * *", async () => {
+schedule("*/5 * * * *", async () => {
   getData();
 });
