@@ -15,6 +15,6 @@ const infoApi_1 = require("./infoApi");
 (0, node_cron_1.schedule)('* * * * *', () => __awaiter(void 0, void 0, void 0, function* () {
     (0, funcs_1.dontSleep)();
 }));
-(0, node_cron_1.schedule)("*/1 * * * *", () => __awaiter(void 0, void 0, void 0, function* () {
+(0, node_cron_1.schedule)("*/5 * * * *", () => __awaiter(void 0, void 0, void 0, function* () {
     (0, infoApi_1.getData)();
 }));
